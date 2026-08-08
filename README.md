@@ -146,9 +146,7 @@ erDiagram
 
 Dokumen resmi perancangan sistem berbasis **Template UNIKOM 2026** tersedia dalam repositori ini:
 
-- 📄 **[Dokumen Microsoft Word (.docx)](DOKUMEN_PERANCANGAN_PERANGKAT_LUNAK.docx)**
-- 📕 **[Dokumen PDF (.pdf)](DOKUMEN_PERANCANGAN_PERANGKAT_LUNAK.pdf)**
-- 📝 **[Dokumen Markdown (.md)](DOKUMEN_PERANCANGAN_PERANGKAT_LUNAK.md)**
+- 📝 **[Dokumen Perancangan Perangkat Lunak (.md)](DOKUMEN_PERANCANGAN_PERANGKAT_LUNAK.md)**
 
 ---
 
