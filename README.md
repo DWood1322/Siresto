@@ -20,17 +20,26 @@
 
 ## ⚡ Quick Start (Cara Cepat Menjalankan)
 
-> [!TIP]
-> **Prasyarat**: Pastikan server **MySQL (XAMPP / Laragon)** aktif pada port `3306`.
+> [!IMPORTANT]
+> **Prasyarat Instalasi**: Pastikan server **MySQL (XAMPP / Laragon)** aktif pada port `3306`.
 
-1. **Jalankan Aplikasi** (cukup 1 klik atau 1 perintah):
-   ```powershell
-   .\serve
-   ```
-   *(Atau klik 2x file `serve.bat` di folder proyek)*.
+### 1. Migrasi Pertama Kali (Hanya 1x Saat Clone / Install Baru)
+Jika Anda baru pertama kali mengunduh / meng-clone repositori ini di komputer baru, jalankan perintah migrasi & seed untuk membuat database `siresto` beserta data awal sampel:
+```powershell
+.\migrate
+```
+*(Atau jalankan `php artisan migrate:fresh --seed`)*.
 
-2. **Akses Browser**:
-   Buka **[http://127.0.0.1:8000](http://127.0.0.1:8000)** di browser Anda.
+---
+
+### 2. Menjalankan Aplikasi (Penggunaan Sehari-hari)
+Cukup jalankan server lokal:
+```powershell
+.\serve
+```
+*(Atau klik 2x file `serve.bat` di folder proyek)*.
+
+Buka browser di: **[http://127.0.0.1:8000](http://127.0.0.1:8000)**
 
 ---
 
